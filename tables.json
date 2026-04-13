@@ -1,0 +1,132 @@
+[
+  {
+    "name": "aerobio_intro",
+    "fields": [
+      {
+        "name": "title",
+        "type": "text",
+        "description": "The main title of the intro section",
+        "options": null
+      },
+      {
+        "name": "content",
+        "type": "text",
+        "description": "The main paragraph content",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "aerobio_ppt",
+    "fields": [
+      {
+        "name": "title",
+        "type": "text",
+        "description": "Title of the presentation",
+        "options": null
+      },
+      {
+        "name": "type",
+        "type": "text",
+        "description": "File type (pdf, ppt, pptx)",
+        "options": null
+      },
+      {
+        "name": "date",
+        "type": "text",
+        "description": "Upload date",
+        "options": null
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "description": "URL or Base64 data of the file",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "aerobio_sim",
+    "fields": [
+      {
+        "name": "title",
+        "type": "text",
+        "description": "Simulation title",
+        "options": null
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "description": "Embed URL",
+        "options": null
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "description": "Short description",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "aerobio_real_life",
+    "fields": [
+      {
+        "name": "title",
+        "type": "text",
+        "description": "Case study title",
+        "options": null
+      },
+      {
+        "name": "image",
+        "type": "text",
+        "description": "Image URL",
+        "options": null
+      },
+      {
+        "name": "content",
+        "type": "text",
+        "description": "Case study content",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "aerobio_team",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Name of the team member",
+        "options": null
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "description": "Job title or degree (e.g. B.tech AI)",
+        "options": null
+      },
+      {
+        "name": "image",
+        "type": "text",
+        "description": "URL to profile image",
+        "options": null
+      },
+      {
+        "name": "linkedin",
+        "type": "text",
+        "description": "LinkedIn profile URL",
+        "options": null
+      },
+      {
+        "name": "category",
+        "type": "text",
+        "description": "Type of member: 'guide' or 'developer'",
+        "options": [
+          "guide",
+          "developer"
+        ]
+      }
+    ]
+  }
+]
